@@ -2,6 +2,10 @@
 
 <style>
 
+body{
+        background-color: rgb(228, 228, 228);
+    }
+
     #heding1{
         text-align: center;
         margin-top: 10px;
@@ -10,31 +14,47 @@
         margin-right: 30px;
         padding: 20px;
         color: rgba(53, 20, 40, 0.521);
-        background-color: darkgray;
+        background-color: rgb(186, 219, 183);
+        font-family: Verdana;
+        font-size: x-large;
+
     }
 
     #pages{
         text-align: center;
-        margin : 0px , 30px;
+        /* margin : 0px , 30px; */
         padding : 30px;
-        background-color: whitesmoke;
+        background-color: rgb(231, 137, 60);
     }
 
     #pages a{
-        color: yellowgreen;
+        color: white;
+        font-size: large;
+        text-decoration: none;
         padding : 40px;
+        font-family: FreeMono, monospace;
     }
 
-    #buttuns button{
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 2px;
-        margin-bottom: 2px;
-        padding: 20px;
-        height: 60px;
-        width: 80%;
-        background-color: yellow;
+    #btn{
+        margin-top: 20px;
+        margin-left: 150px;
+
     }
+
+    #btn1{
+        height: 300px;
+        width: 250px;
+        background-color: rgb(216, 205, 199);
+        margin-left: 100px;
+        font-size: medium;
+        font-family: Verdana;
+        border-style: groove;
+        border-radius: 15px;
+        
+    }
+    
+
+
 
 </style>
 
@@ -61,27 +81,38 @@
 
     </div>
 
-    <div id = buttuns>
+    <div id = "btn">
+        <button id = "btn1" onclick="window.location.href ='blog1.html'">
+            <img src="baba.png" height="175px" width="235px">
 
-        <div>
-            <button><a href="blog1.html">Blog1</a></button>
+            <br>
+            <br>
+            <br>
+            
+            Baba-ka-Dhaba
+        </button>
 
-        </div>
+        <button id = "btn1" onclick="window.location.href ='blog2.html'">
+            <img src="medical.jpg" height="175px" width="235px">
 
-        <div>
-            <button><a href="blog2.html">Blog2</a></button>
+            <br>
+            <br>
+            <br>
+            
+            Medical-Emergencies
+        </button>
 
-        </div>
+        <button id = "btn1" onclick="window.location.href ='blog3.html'">
+            <img src="child.jpg" height="175px" width="235px">
 
-        <div>
-            <button><a href="blog3.html">Blog3</a></button>
-        </div>
+            <br>
+            <br>
+            <br>
 
-
+            Child-Helth
+        </button>
     </div>
-
+      
     
-
-
 </body>
 </html>
